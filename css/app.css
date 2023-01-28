@@ -1,0 +1,141 @@
+body{
+    margin: auto;
+    text-align: center;
+        text-align: center;
+        background-image: url("../img/1.gif");
+        background-repeat:repeat;
+        background-size:cover;
+}
+.row{
+    margin: auto;
+    text-align: center;
+        text-align: center;
+        background-image: url("../img/2.jpg");
+        background-repeat:repeat;
+        background-size:cover;
+        width: 400px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 5px;
+    background-image: url("../img/3.png");
+
+
+}
+h2{
+    margin-bottom: 0px;
+}
+.board-container, table{
+    margin: auto;
+    text-align: center;
+}
+.easy, .medium, .hard{
+margin-top: 10px;
+}
+.easy{
+    background-color: green;
+}
+.medium{
+    background-color: sandybrown;
+}
+.hard{
+    background-color: brown;
+}
+p{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-top-color: black;
+    border-top-color: black;
+    background-color: salmon;
+    width: 200px;
+}
+/* .EMPTY{
+    /* background-color: gray; */
+
+.BOMB{
+    background-color: bisque;
+}
+.FLAG{
+    background-color: blue;
+}
+img{
+    text-align: center;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+}
+.EMPTY{
+    /* width: 20px; */
+    background-color: blueviolet;
+    color: blueviolet;
+}
+td{
+
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(223, 155, 73);
+    height: 30px;
+    color: rgb(9, 108, 9);
+    font-size: 20px;
+    /* width: 20px;
+    height: 20px; */
+}
+.timer, .score, .mine{
+    background: none;
+    border: none;
+}
+.Dark{
+    background-image: url("../img/5.gif");
+    background-repeat:repeat;
+    background-size:cover;    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    color:beige;
+}
+.Dark:hover{
+    cursor: pointer;
+}
+.smileyBtn{
+    font-size: 40px;
+    background:none;
+    border-style: none;
+}
+.mine{
+    font-size: 20px;
+}
+.smileyBtn:hover{
+    cursor: pointer;
+  /* height: 50px; */
+    /* box-shadow: rgba(173, 170, 170, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+/* border-radius: 50px; */
+}
+/* td{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(68, 74, 74);
+    border-color:  slategray;
+    border-style: solid;
+} */
+.cell:hover{
+    cursor: pointer;
+}
+.result{ 
+    display: none;
+    /* margin:auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: aqua; */
+}
+/* .box{ */
+    /* background-color: blue; */
+/* } */
+/* tr{
+    border-style: solid;
+    border-color: black;
+} */
